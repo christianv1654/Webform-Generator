@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* li and ul apply to all in NavBar*/
+li { 
+    display: inline; 
+    margin-right: 250px;
+    font-size: 25px;
+    
+}
+  
+ul {
+   border: 5px solid #083ceb;
+   padding: 20px;
+   width: 1760px;
+   border-radius: 10px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 20px 20px;
+  margin: 10px 10px;
+  cursor: pointer;
+
+}
