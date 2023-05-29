@@ -5,25 +5,29 @@
 /* li and ul apply to all in NavBar*/
 li { 
     display: inline; 
-    margin-right: 250px;
-    font-size: 25px;
+    margin-right: 50px;
+    font-size: 30px;
+    padding: 10px 10px;
     
 }
   
 ul {
-   border: 5px solid #083ceb;
-   padding: 20px;
-   width: 1760px;
+   background-color: #4A99E1;
+   padding: 0px;
+   margin: 0px;
+   width: 1850px;
    border-radius: 10px;
    -moz-border-radius: 10px;
-   -webkit-border-radius: 10px;
+   -webkit-border-radius: 50px;
+
 }
 
 .button {
   border: none;
-  color: white;
-  padding: 20px 20px;
-  margin: 10px 10px;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  margin: 0px 0px;
   cursor: pointer;
+  
 
 }
